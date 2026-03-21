@@ -26,6 +26,7 @@ vector<int> productExceptSelf(vector<int>& arr) {
         return res;
     }
 
+
 int main(){
   vector<int> arr={10,3,5,6,2};
   vector<int> res=productExceptSelf(arr);
