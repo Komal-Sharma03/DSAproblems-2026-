@@ -29,6 +29,7 @@ int MajorityElem(vector<int> &arr){
     return -1;
 }
 
+
 int main(){
     vector<int> arr={1,1,2,1,3,5,1};
     cout<<MajorityElem(arr)<<endl;
