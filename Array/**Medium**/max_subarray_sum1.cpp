@@ -8,8 +8,10 @@ int MaxSumSubarray(vector<int> &arr){
         int currSum=0;
         for(int j=i;j<n;j++){
             currSum+=arr[j];
+
+            maxSum=max(maxSum,currSum);
         }
-        maxSum=max(maxSum,currSum);
+        
     }
 
     return maxSum;
