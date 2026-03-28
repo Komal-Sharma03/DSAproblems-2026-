@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+
 void AddOneEnd(vector<int> &arr){
     int n=arr.size();
     int carry=1;
