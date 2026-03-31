@@ -5,13 +5,11 @@ int MaxPeri(vector<int> &arr){
     int n=arr.size();
     if(n<3) return -1;
     sort(arr.begin(),arr.end());
-    int maxP=-1;
     for(int i=n-1;i>3;i--){
         if(arr[i]<arr[i-1]+arr[i-2]){
-            maxP=max(maxP,arr[i]+arr[i-1]+arr[i-2]);
+            return arr[i]+arr[i-1]+arr[i-2]
         }
     }
-    return maxP;
 }
 
 int main(){
