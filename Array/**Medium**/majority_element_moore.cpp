@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+
 int MajorityElem(vector<int> &arr){
     int n=arr.size();
     int ans=INT_MIN;
