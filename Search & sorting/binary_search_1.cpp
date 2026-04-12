@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+
 int BinarySearch(vector<int> &arr,int target){
     int n=arr.size();
     int low=0;
