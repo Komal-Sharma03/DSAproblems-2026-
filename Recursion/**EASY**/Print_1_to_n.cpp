@@ -15,5 +15,4 @@ int main(){
     cout<<"Enter n: ";
     cin>>n;
     PrintSeq(n);
-
 }
