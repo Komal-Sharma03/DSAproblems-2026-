@@ -10,7 +10,6 @@ vector<int> ArrayLeaders(vector<int> &arr){
             mx=arr[i];
             res.push_back(mx);
         }
-        
     }
     reverse(res.begin(),res.end());
     return res;
