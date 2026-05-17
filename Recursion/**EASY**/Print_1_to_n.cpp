@@ -16,3 +16,4 @@ int main(){
     cin>>n;
     PrintSeq(n);
 }
+
